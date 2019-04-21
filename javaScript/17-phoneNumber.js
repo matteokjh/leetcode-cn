@@ -1,8 +1,8 @@
 /**
- * @param {string} digits
- * @return {string[]}
  * https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
  * 电话号码的全组合
+ * @param {string} digits
+ * @return {string[]}
  */
 
  function letterCombinations(digits) { // BFS

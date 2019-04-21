@@ -1,10 +1,8 @@
 /** https://leetcode-cn.com/problems/merge-two-sorted-lists/
- * @description: 合并有序链表
+ * @description: 合并两个有序链表
  * @param {ListNode} l1
  * @param {ListNode} l2
  * @return {ListNode}
- *
- * 
  */
 function ListNode(val) {
     function func(v) {

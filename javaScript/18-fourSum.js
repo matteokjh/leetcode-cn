@@ -1,8 +1,9 @@
 /**
+ * https://leetcode-cn.com/problems/4sum/
+ * 四数之和
  * @param {number[]} nums
  * @param {number} target
  * @return {number[][]}
- * https://leetcode-cn.com/problems/4sum/
  */
 var fourSum = function (nums, target) { // 四数和
     let res = [];

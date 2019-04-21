@@ -1,7 +1,8 @@
 /**
+ * https://leetcode-cn.com/problems/generate-parentheses/
+ * 括号生成
  * @param {number} n
  * @return {string[]}
- * https://leetcode-cn.com/problems/generate-parentheses/
  */
 var generateParenthesis = function(n) { // 括号的所有排列情况
     let res = [];
