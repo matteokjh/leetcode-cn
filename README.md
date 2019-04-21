@@ -12,7 +12,7 @@ a leetcode a day, keep the  ignorance away.
 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/3-subString.js)  | Medium
 4 | [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/4-findMedian.js)  | Hard
 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/5-longestPalindrome.js)  | Medium
-6 | [Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/6-zConvert.js.js)  | Medium
+6 | [Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/6-zConvert.js)  | Medium
 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/7-intReverse.js)  | Easy
 8 | [字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/8-myAtoI.js)  | Medium
 9 | [回文数](https://leetcode-cn.com/problems/palindrome-number/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/9-isPalindrome.js)  | Easy
