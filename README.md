@@ -30,5 +30,5 @@ a leetcode a day, keep the  ignorance away.
 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/21-mergeList.js)  | Easy
 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/22-parenthesis.js)  | Medium
 23 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/23-mergeListK.js)  | Hard
-24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/24-swapNode.js)  | Hard
+24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/24-swapNode.js)  | Medium
 25 | [k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/25-reverseKGroup.js)  | Hard
