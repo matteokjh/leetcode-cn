@@ -32,3 +32,5 @@ a leetcode a day, keep the  ignorance away.
 23 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/23-mergeListK.js)  | Hard
 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/24-swapNode.js)  | Medium
 25 | [k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/25-reverseKGroup.js)  | Hard
+26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/26-removeDuplicates.js)  | Easy
+27 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/27-removeElement.js)  | Easy
