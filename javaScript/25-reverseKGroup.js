@@ -6,6 +6,7 @@
  *     this.val = val;
  *     this.next = null;
  * }
+ * 
  */
 /**
  * @param {ListNode} head
