@@ -38,3 +38,5 @@ var lengthOfLongestSubstring = function(s) {
     }
     
 };
+
+lengthOfLongestSubstring('abaabcbc')
