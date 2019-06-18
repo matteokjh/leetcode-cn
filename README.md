@@ -38,3 +38,4 @@ a leetcode a day, keep the  ignorance away.
 29 | [两数相除](https://leetcode-cn.com/problems/remove-element/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/29-divide.js)  | Medium
 30 | [串联所有单词的子串](https://leetcode-cn.com/problems/remove-element/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/30-findSubString.js)  | Hard
 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/31-nextArrange.js)  | Medium
+32 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/32-longestValidParentheses.js)  | Hard
