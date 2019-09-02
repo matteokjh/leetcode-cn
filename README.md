@@ -41,3 +41,4 @@ a leetcode a day, keep the  ignorance away.
 32 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/32-longestValidParentheses.js)  | Hard
 33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/33-searchReverse.js)  | Medium
 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/34-findFirstandLast.js)  | Medium
+35| [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/35-searchInsert.js)  | Easy
