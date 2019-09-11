@@ -42,4 +42,6 @@ a leetcode a day, keep the  ignorance away.
 33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/33-searchReverse.js)  | Medium
 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/34-findFirstandLast.js)  | Medium
 35| [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/35-searchInsert.js)  | Easy
-36| [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/submissions/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/36-sudoku1.js)  | Medium
+36| [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/36-sudoku1.js)  | Medium
+37| [解数独](https://leetcode-cn.com/problems/sudoku-solver/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/37-sudoku2.js)  | Hard
+38| [报数](https://leetcode-cn.com/problems/count-and-say/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/38-countAndSay.js)  | Easy
