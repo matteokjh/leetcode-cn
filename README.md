@@ -45,3 +45,8 @@ a leetcode a day, keep the  ignorance away.
 36| [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/36-sudoku1.js)  | Medium
 37| [解数独](https://leetcode-cn.com/problems/sudoku-solver/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/37-sudoku2.js)  | Hard
 38| [报数](https://leetcode-cn.com/problems/count-and-say/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/38-countAndSay.js)  | Easy
+39| [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/39-combination.js)  | Medium
+40| [组合总和II](https://leetcode-cn.com/problems/combination-sum-ii/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/40-combinatioin2.js)  | Medium
+41| [缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/41-firstMissingPositive.js)  | Hard
+42| [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/42-catchTheRain.js)  | Hard
+43| [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/43-stringMultiply.js)  | Medium
