@@ -55,4 +55,6 @@ a leetcode a day, keep the  ignorance away.
 46| [全排列](https://leetcode-cn.com/problems/permutations/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/46-allArrange.js)  | Medium
 47| [全排列II](https://leetcode-cn.com/problems/permutations-ii/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/47-allArrangeII.js)  | Medium
 48| [旋转图像](https://leetcode-cn.com/problems/rotate-image/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/48-rotate.js)  | Medium
+49| [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/49-groupAnagram.js)  | Medium
+50| [快速幂](https://leetcode-cn.com/problems/powx-n/) | [JavaScript](https://github.com/matteokjh/leetcode-cn/blob/master/javaScript/50-myPow.js)  | Medium
 
