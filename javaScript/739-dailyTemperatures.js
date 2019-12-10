@@ -1,6 +1,6 @@
 /**
  * https://leetcode-cn.com/problems/daily-temperatures/
- * 日温度
+ * 每日温度
  * Medium
  * @param {number[]} T
  * @return {number[]}
