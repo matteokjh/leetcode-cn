@@ -5,4 +5,4 @@ a leetcode a day, keep the  ignorance away.
 
 ---
 
-- [前50题](./README/50.md)
+- [前100题](./README/100.md)
