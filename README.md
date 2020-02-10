@@ -1,7 +1,7 @@
 # leetcode-cn
 a leetcode a day, keep the  ignorance away.
 
-这是本人在leetcode-cn上的做题记录。
+This is a code collection of my answers on [leetcode-cn](https://leetcode-cn.com/)
 
 ---
 
