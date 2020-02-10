@@ -1,6 +1,7 @@
 /**
  * https://leetcode-cn.com/problems/jump-game/submissions/
  * 跳跃游戏
+ * Medium
  * @param {number[]} nums
  * @return {boolean}
  */

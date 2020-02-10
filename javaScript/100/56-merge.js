@@ -1,6 +1,7 @@
 /**
  * https://leetcode-cn.com/problems/merge-intervals/submissions/
  * 合并区间
+ * Medium
  * @param {number[][]} intervals
  * @return {number[][]}
  */
