@@ -1,5 +1,22 @@
 #### 剑指 offer 专题
 
-| \#  | Title                                                                                      | Solution                                    | Difficulty |
-| --- | ------------------------------------------------------------------------------------------ | ------------------------------------------- | ---------- |
-| 3   | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [JavaScript](../javaScript/sword/3-duplicateNum.js) | Easy       |
+| \#    | Title                                                                                                             | Solution                                                   | Difficulty |
+| ----- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
+| 3     | [面试题 03 数组中重复的数字 ](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)             | [JavaScript](../javaScript/sword/3-duplicateNum.js)        | Easy       |
+| 4     | [面试题 04. 二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)             | [JavaScript](../javaScript/sword/4-findNumberIn2DArray.js) | Easy       |
+| 5     | [面试题 05. 替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)                                     | [JavaScript](../javaScript/sword/5-replaceSpace.js)        | Easy       |
+| 6     | [面试题 06 从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)            | [JavaScript](../javaScript/sword/6-reversePrint.js)        | Easy       |
+| 7     | [面试题 07 重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)                              | [JavaScript](../javaScript/sword/7-buildTree.js)           | Medium     |
+| 9     | [面试题 09 用两个栈实现队列 ](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)         | [JavaScript](../javaScript/sword/9-CQueue.js)              | Easy       |
+| 10-I  | [面试题 10- I. 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)                         | [JavaScript](../javaScript/sword/10-I-fib.js)              | Easy       |
+| 10-II | [面试题 10- II. 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)               | [JavaScript](../javaScript/sword/10-II-numWays.js)         | Easy       |
+| 11    | [面试题 11 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)       | [JavaScript](../javaScript/sword/11-minArray.js)           | Easy       |
+| 12    | [面试题 12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)                        | [JavaScript](../javaScript/sword/12-exist.js)              | Medium     |
+| 13    | [面试题 13 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)                | [JavaScript](../javaScript/sword/13-movingCount.js)        | Medium     |
+| 14-I  | [面试题 14- I. 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)                                      | [JavaScript](../javaScript/sword/14-I-cuttingRope.js)      | Medium     |
+| 14-II | [面试题 14- II. 剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/submissions/)                   | [JavaScript](../javaScript/sword/14-II-cuttingRope.js)     | Medium     |
+| 16    | [面试题 16. 数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)                  | [JavaScript](../javaScript/sword/16-myPow.js)              | Medium     |
+| 17    | [面试题 17. 打印从 1 到最大的 n 位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | [JavaScript](../javaScript/sword/17-printNum.js)           | Easy       |
+| 18    | [面试题 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)                | [JavaScript](../javaScript/sword/18-deleteNode.js)         | Easy       |
+| 19    | [面试题 19. 正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)                   | [JavaScript](../javaScript/sword/19-isMatch.js)            | Hard       |
+| 20    | [面试题 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)             | [JavaScript](../javaScript/sword/20-isNumber.js)           | Medium     |
