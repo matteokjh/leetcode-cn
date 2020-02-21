@@ -4,3 +4,4 @@
 | --- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------- |
 | 1   | [面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)             | [JavaScript](../javaScript/lcci/1-isUnique.js)         | Easy       |
 | 2   | [面试题 01.02. 判定是否互为字符重排](https://leetcode-cn.com/problems/check-permutation-lcci/) | [JavaScript](../javaScript/lcci/2-checkPermutation.js) | Easy       |
+| 3   | [面试题 01.03. URL 化](https://leetcode-cn.com/problems/string-to-url-lcci/)                   | [JavaScript](../javaScript/lcci/3-replaceSpaces.js)    | Easy       |
