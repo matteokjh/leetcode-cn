@@ -15,3 +15,6 @@
 | 2-2 | [面试题 02.02. 返回倒数第 k 个节点](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/) | [JavaScript](../javaScript/lcci/2-2-kthToLast.js)            | Medium     |
 | 2-3 | [面试题 02.03. 删除中间节点](https://leetcode-cn.com/problems/delete-middle-node-lcci/)               | [JavaScript](../javaScript/lcci/2-3-deleteNode)              | Easy       |
 | 2-4 | [面试题 02.04. 分割链表](https://leetcode-cn.com/problems/partition-list-lcci/)                       | [JavaScript](../javaScript/lcci/2-4-partition.js)            | Medium     |
+| 2-5 | [面试题 02.05. 链表求和](https://leetcode-cn.com/problems/partition-list-lcci/)                       | [JavaScript](../javaScript/lcci/2-5-addTwoNumbers.js)        | Medium     |
+| 2-6 | [面试题 02.06. 回文链表](https://leetcode-cn.com/problems/partition-list-lcci/)                       | [JavaScript](../javaScript/lcci/2-6-isPalindrome.js)         | Easy       |
+| 2-7 | [面试题 02.07. 链表相交](https://leetcode-cn.com/problems/partition-list-lcci/)                       | [JavaScript](../javaScript/lcci/2-7-getIntersectionNode.js)  | Easy       |
