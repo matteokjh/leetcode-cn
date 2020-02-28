@@ -18,3 +18,6 @@
 | 2-5 | [面试题 02.05. 链表求和](https://leetcode-cn.com/problems/partition-list-lcci/)                       | [JavaScript](../javaScript/lcci/2-5-addTwoNumbers.js)        | Medium     |
 | 2-6 | [面试题 02.06. 回文链表](https://leetcode-cn.com/problems/partition-list-lcci/)                       | [JavaScript](../javaScript/lcci/2-6-isPalindrome.js)         | Easy       |
 | 2-7 | [面试题 02.07. 链表相交](https://leetcode-cn.com/problems/partition-list-lcci/)                       | [JavaScript](../javaScript/lcci/2-7-getIntersectionNode.js)  | Easy       |
+| 2-8 | [面试题 02.08. 环路检测](https://leetcode-cn.com/problems/linked-list-cycle-lcci/)                    | [JavaScript](../javaScript/lcci/2-8-detectCycle.js)          | Medium     |
+| 3-1 | [面试题 03.01. 三合一](https://leetcode-cn.com/problems/triple-in-one-lcci/)                          | [JavaScript](../javaScript/lcci/3-1-TripleInOne.js)          | Medium     |
+| 3-2 | [面试题 03.02. 栈的最小值](https://leetcode-cn.com/problems/min-stack-lcci/)                          | [JavaScript](../javaScript/lcci/3-2-minStack.js)             | Easy       |
