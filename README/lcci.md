@@ -24,3 +24,5 @@
 | 3-3 | [面试题 03.03. 堆盘子](https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci/)           | [JavaScript](../javaScript/lcci/3-3-StackOfPlates.js)        | Medium     |
 | 3-4 | [面试题 03.04. 化栈为队](https://leetcode-cn.com/problems/min-stack-lcci/)                            | [JavaScript](../javaScript/lcci/3-4-MyQueue.js)              | Easy       |
 | 3-5 | [面试题 03.05. 栈排序](https://leetcode-cn.com/problems/sort-of-stacks-lcci/)                         | [JavaScript](../javaScript/lcci/3-5-SortedStack.js)          | Medium     |
+| 3-6 | [面试题 03.06. 动物收容所](https://leetcode-cn.com/problems/animal-shelter-lcci/)                         | [JavaScript](../javaScript/lcci/3-6-AnimalShelf.js)          | Easy     |
+| 4-1 | [面试题 04.01. 节点间通路](https://leetcode-cn.com/problems/inter-node-access-lcci/)                         | [JavaScript](../javaScript/lcci/4-1-findWhetherExistsPath.js)          | Medium     |
