@@ -29,3 +29,7 @@
 | 4-2 | [面试题 04.02. 最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/)                | [JavaScript](../javaScript/lcci/4-2-sortedArrayToBST.js)      | Easy       |
 | 4-3 | [面试题 04.03. 特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci/)                | [JavaScript](../javaScript/lcci/4-3-listOfDepth.js)           | Medium     |
 | 4-4 | [面试题 04.04. 检查平衡性](https://leetcode-cn.com/problems/check-balance-lcci/)                      | [JavaScript](../javaScript/lcci/4-4-isBalanced.js)            | Easy       |
+| 4-5 | [面试题 04.05. 合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)       | [JavaScript](../javaScript/lcci/4-5-isValidBST.js)            | Medium     |
+| 4-6 | [面试题 04.06. 后继者](https://leetcode-cn.com/problems/successor-lcci/)                              | [JavaScript](../javaScript/lcci/4-6-inorderSuccessor.js)      | Medium     |
+| 4-8 | [面试题 04.08. 首个共同组先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/)            | [JavaScript](../javaScript/lcci/4-8-lowestCommonAncestor.js)  | Medium     |
+| 4-9 | [面试题 04.09. 二叉搜索树序列](https://leetcode-cn.com/problems/bst-sequences-lcci/)                  | [JavaScript](../javaScript/lcci/4-9-BSTSequences.js)          | Hard       |
