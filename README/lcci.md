@@ -33,3 +33,5 @@
 | 4-6 | [面试题 04.06. 后继者](https://leetcode-cn.com/problems/successor-lcci/)                              | [JavaScript](../javaScript/lcci/4-6-inorderSuccessor.js)      | Medium     |
 | 4-8 | [面试题 04.08. 首个共同组先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/)            | [JavaScript](../javaScript/lcci/4-8-lowestCommonAncestor.js)  | Medium     |
 | 4-9 | [面试题 04.09. 二叉搜索树序列](https://leetcode-cn.com/problems/bst-sequences-lcci/)                  | [JavaScript](../javaScript/lcci/4-9-BSTSequences.js)          | Hard       |
+| 4-10 | [面试题 04.10. 检查子树](https://leetcode-cn.com/problems/check-subtree-lcci/)                  | [JavaScript](../javaScript/lcci/4-10-checkSubTree.js)          | Medium       |
+| 4-12 | [面试题 04.12. 求和路径](https://leetcode-cn.com/problems/paths-with-sum-lcci/)                  | [JavaScript](../javaScript/lcci/4-12-pathSum.js)          | Medium       |
