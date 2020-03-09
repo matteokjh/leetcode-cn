@@ -38,3 +38,6 @@
 | 5-1  | [面试题 05.01. 插入](https://leetcode-cn.com/problems/insert-into-bits-lcci/)                         | [JavaScript](../javaScript/lcci/5-1-insertBits.js)            | Medium     |
 | 5-2  | [面试题 05.02. 二进制数转字符串](https://leetcode-cn.com/problems/bianry-number-to-string-lcci/)      | [JavaScript](../javaScript/lcci/5-2-printBin.js)              | Medium     |
 | 5-3  | [面试题 05.03. 翻转数位](https://leetcode-cn.com/problems/reverse-bits-lcci/)                         | [JavaScript](../javaScript/lcci/5-3-reverseBits.js)           | Easy       |
+| 5-4  | [面试题 05.04. 下一个数](https://leetcode-cn.com/problems/closed-number-lcci/)                        | [JavaScript](../javaScript/lcci/5-4-findClosedNumbers.js)     | Medium     |
+| 5-6  | [面试题 05.06. 整数转换](https://leetcode-cn.com/problems/convert-integer-lcci/)                      | [JavaScript](../javaScript/lcci/5-6-convertInteger.js)        | Easy       |
+| 5-7  | [面试题 05.07. 配对交换](https://leetcode-cn.com/problems/exchange-lcci/)                             | [JavaScript](../javaScript/lcci/5-7-exchangeBits.js)          | Easy       |
