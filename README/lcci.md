@@ -41,6 +41,9 @@
 | 5-4  | [面试题 05.04. 下一个数](https://leetcode-cn.com/problems/closed-number-lcci/)                        | [JavaScript](../javaScript/lcci/5-4-findClosedNumbers.js)     | Medium     |
 | 5-6  | [面试题 05.06. 整数转换](https://leetcode-cn.com/problems/convert-integer-lcci/)                      | [JavaScript](../javaScript/lcci/5-6-convertInteger.js)        | Easy       |
 | 5-7  | [面试题 05.07. 配对交换](https://leetcode-cn.com/problems/exchange-lcci/)                             | [JavaScript](../javaScript/lcci/5-7-exchangeBits.js)          | Easy       |
+| 5-8  | [面试题 05.08. 绘制直线](https://leetcode-cn.com/problems/draw-line-lcci/)                            | [JavaScript](../javaScript/lcci/5-8-drawLine.js)              | Medium     |
 | 8-1  | [面试题 08.01. 三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  | [JavaScript](../javaScript/lcci/8-1-waysToStep.js)            | Easy       |
 | 8-2  | [面试题 08.02. 迷路的机器人](https://leetcode-cn.com/problems/robot-in-a-grid-lcci/)                  | [JavaScript](../javaScript/lcci/8-2-pathWithObstacles.js)     | Medium     |
 | 8-3  | [面试题 08.03. 魔术索引](https://leetcode-cn.com/problems/magic-index-lcci/)                          | [JavaScript](../javaScript/lcci/8-3-findMagicIndex.js)        | Easy       |
+| 8-4  | [面试题 08.04. 幂集](https://leetcode-cn.com/problems/power-set-lcci/)                                | [JavaScript](../javaScript/lcci/8-4-subsets.js)               | Medium     |
+| 8-5  | [面试题 08.05. 递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci/)                   | [JavaScript](../javaScript/lcci/8-5-multiply.js)              | Medium     |
