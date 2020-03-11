@@ -47,3 +47,5 @@
 | 8-3  | [面试题 08.03. 魔术索引](https://leetcode-cn.com/problems/magic-index-lcci/)                          | [JavaScript](../javaScript/lcci/8-3-findMagicIndex.js)        | Easy       |
 | 8-4  | [面试题 08.04. 幂集](https://leetcode-cn.com/problems/power-set-lcci/)                                | [JavaScript](../javaScript/lcci/8-4-subsets.js)               | Medium     |
 | 8-5  | [面试题 08.05. 递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci/)                   | [JavaScript](../javaScript/lcci/8-5-multiply.js)              | Medium     |
+| 8-6  | [面试题 08.06. 汉诺塔问题](https://leetcode-cn.com/problems/hanota-lcci/)                             | [JavaScript](../javaScript/lcci/8-6-hanota.js)                | Easy       |
+| 8-7  | [面试题 08.07. 无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci/)          | [JavaScript](../javaScript/lcci/8-7-permutation.js)           | Medium     |
