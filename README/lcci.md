@@ -49,4 +49,7 @@
 | 8-5  | [面试题 08.05. 递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci/)                   | [JavaScript](../javaScript/lcci/8-5-multiply.js)              | Medium     |
 | 8-6  | [面试题 08.06. 汉诺塔问题](https://leetcode-cn.com/problems/hanota-lcci/)                             | [JavaScript](../javaScript/lcci/8-6-hanota.js)                | Easy       |
 | 8-7  | [面试题 08.07. 无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci/)          | [JavaScript](../javaScript/lcci/8-7-permutation.js)           | Medium     |
-| 8-8  | [面试题 08.08. 有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci/)          | [JavaScript](../javaScript/lcci/8-8-permutation.js)           | Medium     |
+| 8-8  | [面试题 08.08. 有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci/)         | [JavaScript](../javaScript/lcci/8-8-permutation.js)           | Medium     |
+| 8-9  | [面试题 08.09. 括号](https://leetcode-cn.com/problems/bracket-lcci/)                                  | [JavaScript](../javaScript/lcci/8-9-generateParenthesis.js)   | Medium     |
+| 8-10 | [面试题 08.10. 颜色填充](https://leetcode-cn.com/problems/color-fill-lcci/)                           | [JavaScript](../javaScript/lcci/8-10-floodFill.js)            | Easy       |
+| 8-11 | [面试题 08.11. 硬币](https://leetcode-cn.com/problems/coin-lcci/)                                     | [JavaScript](../javaScript/lcci/8-11-waysToChange.js)         | Medium     |
