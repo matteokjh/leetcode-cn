@@ -53,3 +53,6 @@
 | 8-9  | [面试题 08.09. 括号](https://leetcode-cn.com/problems/bracket-lcci/)                                  | [JavaScript](../javaScript/lcci/8-9-generateParenthesis.js)   | Medium     |
 | 8-10 | [面试题 08.10. 颜色填充](https://leetcode-cn.com/problems/color-fill-lcci/)                           | [JavaScript](../javaScript/lcci/8-10-floodFill.js)            | Easy       |
 | 8-11 | [面试题 08.11. 硬币](https://leetcode-cn.com/problems/coin-lcci/)                                     | [JavaScript](../javaScript/lcci/8-11-waysToChange.js)         | Medium     |
+| 8-12 | [面试题 08.12. 八皇后](https://leetcode-cn.com/problems/eight-queens-lcci/)                           | [JavaScript](../javaScript/lcci/8-12-solveQueens.js)          | Hard       |
+| 8-13 | [面试题 08.13. 堆箱子](https://leetcode-cn.com/problems/pile-box-lcci/)                               | [JavaScript](../javaScript/lcci/8-13-pileBox.js)              | Hard       |
+| 10-2 | [面试题 10.02. 变位词组](https://leetcode-cn.com/problems/group-anagrams-lcci/)                       | [JavaScript](../javaScript/lcci/10-2-groupAnagrams.js)        | Medium     |
