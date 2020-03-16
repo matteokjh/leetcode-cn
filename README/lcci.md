@@ -55,4 +55,6 @@
 | 8-11 | [面试题 08.11. 硬币](https://leetcode-cn.com/problems/coin-lcci/)                                     | [JavaScript](../javaScript/lcci/8-11-waysToChange.js)         | Medium     |
 | 8-12 | [面试题 08.12. 八皇后](https://leetcode-cn.com/problems/eight-queens-lcci/)                           | [JavaScript](../javaScript/lcci/8-12-solveQueens.js)          | Hard       |
 | 8-13 | [面试题 08.13. 堆箱子](https://leetcode-cn.com/problems/pile-box-lcci/)                               | [JavaScript](../javaScript/lcci/8-13-pileBox.js)              | Hard       |
+| 8-14 | [面试题 08.14. 布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/)                   | [JavaScript](../javaScript/lcci/8-14-countEval.js)            | Medium     |
 | 10-2 | [面试题 10.02. 变位词组](https://leetcode-cn.com/problems/group-anagrams-lcci/)                       | [JavaScript](../javaScript/lcci/10-2-groupAnagrams.js)        | Medium     |
+| 10-3 | [面试题 10.03. 搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/)              | [JavaScript](../javaScript/lcci/10-3-search.js)               | Medium     |
