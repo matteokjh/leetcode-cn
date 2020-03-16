@@ -6,29 +6,23 @@
  * @return {boolean}
  */
 var isMatch = function(s, p) {
-    var m = s.length, n = p.length;
-    var dp = [...Array(n+1)].map(()=>Array(m+1).fill('')); //构建二维数组
-    dp[0][0] = true
-    for(let i=1;i<=m;i++){
-        dp[0][i] = false
+    let i = (j = 0);
+    let m = s.length;
+    let n = p.length;
+    let iStar = -1;
+    let jStar = -1;
+    while (i < m) {
+        if (j < n && (s[i] === p[j] || p[j] === "?")) {
+            i++;
+            j++;
+        } else if (j < n && p[j] === "*") {
+            iStar = i;
+            jStar = j++;
+        } else if (iStar >= 0) {
+            i = ++iStar;
+            j = jStar + 1;
+        } else return false;
     }
-    for(let i=1;i<=n;i++) {
-        if(p[i-1] === '*') {
-            dp[i][0] = dp[i-1][0]
-            for(let j=1;j<=m;j++) {
-                dp[i][j] = dp[i][j-1] || dp[i-1][j]
-            }
-        } else if(p[i-1] === '?') {
-            dp[i][0] = false
-            for(let j=1;j<=m;j++) {
-                dp[i][j] = dp[i-1][j-1]
-            }
-        } else {
-            dp[i][0] = false
-            for(let j=1;j<=m;j++) {
-                dp[i][j] = s[j-1] === p[i-1] && dp[i-1][j-1]
-            }
-        }
-    }
-    return dp[n][m]
+    while (j < n && p[j] === "*") j++;
+    return j === n;
 };
