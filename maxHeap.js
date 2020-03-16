@@ -1,11 +1,11 @@
-class Heap {
+module.exports = class maxHeap {
     constructor() {
         this.heap = [null];
     }
     get size() {
         return this.heap.length - 1;
     }
-    getMin() {
+    top() {
         return this.heap[1];
     }
     insert(val) {
@@ -14,7 +14,7 @@ class Heap {
             let parent = this.heap.length - 1;
             let child = ~~(parent / 2);
             // traverse
-            while (parent > 1 && this.heap[child] > this.heap[parent]) {
+            while (parent > 1 && this.heap[child] < this.heap[parent]) {
                 [this.heap[child], this.heap[parent]] = [
                     this.heap[parent],
                     this.heap[child]
@@ -33,10 +33,10 @@ class Heap {
         let len = this.heap.length;
         let parent = 1, child = 2;
         while(child < len) {
-            if (child + 1 < len && this.heap[child + 1] < this.heap[child]) {
+            if (child + 1 < len && this.heap[child + 1] > this.heap[child]) {
                 child++;
             }
-            if (tmp < this.heap[child]) break;
+            if (tmp > this.heap[child]) break;
             [this.heap[parent], this.heap[child]] = [this.heap[child], this.heap[parent]];
             parent = child
             child = parent * 2
@@ -44,16 +44,3 @@ class Heap {
         return min;
     }
 }
-
-function testHeap() {
-    let heap = new Heap();
-    let arr = [2, 10, 3, 1, 5, 8]
-    for (let num of arr) {
-        heap.insert(num);
-    }
-    while (heap.getMin()) {
-        heap.remove()
-        console.log(heap)
-    }
-}
-// testHeap()
