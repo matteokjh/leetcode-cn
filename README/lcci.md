@@ -61,3 +61,5 @@
 | 10-5  | [面试题 10.05. 稀疏数组搜索](https://leetcode-cn.com/problems/sparse-array-search-lcci/)              | [JavaScript](../javaScript/lcci/10-5-findString.js)           | Easy       |
 | 10-9  | [面试题 10.09. 排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/)             | [JavaScript](../javaScript/lcci/10-9-searchMatrix.js)         | Medium     |
 | 10-10 | [面试题 10.10. 数字流的秩](https://leetcode-cn.com/problems/rank-from-stream-lcci/)                   | [JavaScript](../javaScript/lcci/10-10-StreamRank.js)          | Medium     |
+| 10-11 | [面试题 10.11. 峰与谷](https://leetcode-cn.com/problems/peaks-and-valleys-lcci/)                      | [JavaScript](../javaScript/lcci/10-11-wiggleSort.js)          | Medium     |
+| 16-1  | [面试题 16.01. 交换数字](https://leetcode-cn.com/problems/swap-numbers-lcci/)                         | [JavaScript](../javaScript/lcci/16-1-swapNumbers.js)          | Medium     |
