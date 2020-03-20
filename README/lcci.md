@@ -64,3 +64,6 @@
 | 10-11 | [面试题 10.11. 峰与谷](https://leetcode-cn.com/problems/peaks-and-valleys-lcci/)                      | [JavaScript](../javaScript/lcci/10-11-wiggleSort.js)          | Medium     |
 | 16-1  | [面试题 16.01. 交换数字](https://leetcode-cn.com/problems/swap-numbers-lcci/)                         | [JavaScript](../javaScript/lcci/16-1-swapNumbers.js)          | Medium     |
 | 16-2  | [面试题 16.02. 单词频率](https://leetcode-cn.com/problems/words-frequency-lcci/)                      | [JavaScript](../javaScript/lcci/16-2-WordsFrequency.js)       | Medium     |
+| 16-3  | [面试题 16.03. 交点](https://leetcode-cn.com/problems/intersection-lcci/)                             | [JavaScript](../javaScript/lcci/16-3-intersection.js)         | Hard       |
+| 16-4  | [面试题 16.04. 井字游戏](https://leetcode-cn.com/problems/tic-tac-toe-lcci/)                          | [JavaScript](../javaScript/lcci/16-4-tictactoe.js)            | Medium     |
+| 16-5  | [面试题 16.05. 阶乘尾数](https://leetcode-cn.com/problems/factorial-zeros-lcci/)                      | [JavaScript](../javaScript/lcci/16-5-trailingZeroes.js)       | Easy       |
