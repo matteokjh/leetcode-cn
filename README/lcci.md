@@ -67,3 +67,5 @@
 | 16-3  | [面试题 16.03. 交点](https://leetcode-cn.com/problems/intersection-lcci/)                             | [JavaScript](../javaScript/lcci/16-3-intersection.js)         | Hard       |
 | 16-4  | [面试题 16.04. 井字游戏](https://leetcode-cn.com/problems/tic-tac-toe-lcci/)                          | [JavaScript](../javaScript/lcci/16-4-tictactoe.js)            | Medium     |
 | 16-5  | [面试题 16.05. 阶乘尾数](https://leetcode-cn.com/problems/factorial-zeros-lcci/)                      | [JavaScript](../javaScript/lcci/16-5-trailingZeroes.js)       | Easy       |
+| 16-6  | [面试题 16.06. 最小差](https://leetcode-cn.com/problems/smallest-difference-lcci/)                    | [JavaScript](../javaScript/lcci/16-6-smallestDiff.js)         | Medium     |
+| 16-7  | [面试题 16.07. 最大数值](https://leetcode-cn.com/problems/maximum-lcci/)                              | [JavaScript](../javaScript/lcci/16-7-maximum.js)              | Easy       |
