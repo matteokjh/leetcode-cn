@@ -13,55 +13,26 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function(a,b) {
-    let c = {};
-    let res = {};
-    let d = {};
-    let sum = 0;
-    function func(d,cin){
-        if(a && b){
-            sum = a.val + b.val + cin;
-            if(sum >= 10){
-                sum -= 10;
-                cin = 1;
-            }else{
-                cin = 0;
-            }
-            a = a.next;
-            b = b.next;
-        }else if(a){
-            sum = a.val + cin;
-            if(sum >= 10){
-                sum -= 10;
-                cin = 1;
-            }else{
-                cin = 0;
-            }
-            a = a.next;
-        }else if(b){
-            sum = b.val + cin;
-            if(sum >= 10){
-                sum -= 10;
-                cin = 1;
-            }else{
-                cin = 0;
-            }
-            b = b.next;
-        }else if(cin) {
-            sum = 1;
-            cin = 0;
-        }else{
-            return;
+    let cin = 0
+    let res = new ListNode(-1)
+    let node = res
+    let a,b,tmp
+    while(l1 || l2) {
+        a = l1 ? l1.val : 0
+        b = l2 ? l2.val : 0
+        tmp = a + b + cin
+        cin = 0
+        if(tmp >= 10) {
+            tmp -= 10
+            cin = 1
         }
-        c = new ListNode(sum);
-        if(d.val == undefined){
-            res = c;
-            d = res;
-        }else{
-            d.next = c;
-            d = d.next;
-        }
-        func(d,cin);
+        node.next = new ListNode(tmp)
+        node = node.next
+        if(l1) l1 = l1.next
+        if(l2) l2 = l2.next
     }
-    func(d,0);
-    return res;
+    if(cin) {
+        node.next = new ListNode(1)
+    }
+    return res.next
 }
