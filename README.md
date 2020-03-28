@@ -5,6 +5,8 @@ This is a code collection of my answers on [leetcode-cn](https://leetcode-cn.com
 
 ---
 
+- [常用算法](./README/base.md)
+
 - [前100题](./README/100.md)
 
 - [剑指offer专题](./README/sword.md)
