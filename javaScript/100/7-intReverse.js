@@ -5,21 +5,10 @@
  * @return {number}
  */
 var reverse = function(x) {
-    let a  = x.toString().split('')
-    let tt = 0;
-    if(a[0] === '-') {
-        a.shift();
-        tt = 1;
+    function reverse(str) {
+        str = str.toString()
+        let res = str.split('').reverse().join('')
+        return res > 2147483647 ? 0 : res
     }
-    a.reverse();
-    if(tt) {
-        a.unshift('-')
-    }
-    a = a.join('')
-    a = parseInt(a)
-    if(a > Math.pow(2,31)-1 || a < -Math.pow(2,31)){
-        return 0;
-    }else{
-        return a
-    }
+    return x < 0 ? -1 * reverse(-x) : reverse(x)
 };

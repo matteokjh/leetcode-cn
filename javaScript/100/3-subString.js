@@ -5,17 +5,17 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-    let m = {};
-    let res = 0;
-    let pre = 0;
-    for (let i = 0; i < s.length; i++) {
-        if (m[s[i]] !== undefined) {
-            pre = Math.max(pre, m[s[i]]);
+    let map = {}
+    let j = 0
+    let res = 0
+    for(let i=0;i<s.length;i++) {
+        if(map[s[i]]) {
+            j = Math.max(map[s[i]], j)
         }
-        res = Math.max(res, i - pre + 1);
-        m[s[i]] = i + 1;
+        map[s[i]] = i+1
+        res = Math.max(res, i - j + 1)
     }
-    return res;
+    return res
 };
 
 lengthOfLongestSubstring("abaabcbc");

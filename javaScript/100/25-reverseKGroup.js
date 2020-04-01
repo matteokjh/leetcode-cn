@@ -1,6 +1,7 @@
 /**
  * https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
  * k个一组反转链表
+ * Hard
  * Definition for singly-linked list.
  * function ListNode(val) {
  *     this.val = val;
@@ -13,55 +14,30 @@
  * @param {number} k
  * @return {ListNode}
  */
-
-
-function ListNode(val) {
-    function func(v) {
-        if (v.length == 0) {
-            return null;
+var reverseKGroup = function (head, k) {
+    let stack = []
+    let res = new ListNode(0)
+    let cur = res
+    let count
+    while (1) {
+        node = head
+        count = k
+        for (let i = 0; i < k; i++) {
+            if (!node) break
+            stack.push(node)
+            node = node.next
+            count--
         }
-        let a = {};
-        let k = v.shift();
-        a.val = k;
-        a.next = func(v);
-        return a;
-    }
-    if (Array.isArray(val)) {
-        return func(val);
-    } else {
-        return {
-            val: val,
-            next: null
+        if(count) {
+            cur.next = head
+            break
         }
-    }
-}
-var reverseKGroup = function(head, k) {
-    let pre,cur=head,next;
-    let count = 0;
-    let len = 0;
-    let check = head;
-    while(len < k && check != null){ // 先判断满不满足条件
-        check = check.next;
-        len++;
-    }
-    if(len == k){ // 满足条件
-        while(count < k && cur != null){ // 跟C语言的链表指针反转一样...
-            next = cur.next;
-            cur.next = pre;
-            pre = cur;
-            cur = next;
-            count++;
+        while (stack.length) {
+            cur.next = stack.pop()
+            cur = cur.next
         }
-        if(next != null){
-            head.next = reverseKGroup(next,k);
-        }
-        // pre是新头节点
-        return pre;
-    }else{
-        return head;
+        cur.next = node
+        head = node
     }
+    return res.next
 };
-
-let a = new ListNode([1,2,3,4,5]);
-let res = reverseKGroup(a,3);
-console.log(res);
