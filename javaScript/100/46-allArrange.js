@@ -1,22 +1,27 @@
 /**
  * https://leetcode-cn.com/problems/permutations/
  * 全排列
+ * Medium
  * @param {number[]} nums
  * @return {number[][]}
  */
 var permute = function(nums) {
-    return nums.reduce((prev,next)=>{
-        if(prev.length===0) return [[next]]
-        let res=[]
-        let len=prev[0].length+1;
-        for(let i=0;i<len;i++){
-            prev.forEach(it=>{
-                let t=it.slice();
-                t.splice(i,0,next)
-                res.push(t)
-            })
+    let res = []
+    let len = nums.length
+    function backtrack(i, tmp, isRead) {
+        if(tmp.length === len) {
+            res.push([...tmp])
+            return
         }
-        // console.log(prev,next,res)
-        return res
-    },[])
+        for(let j=0;j<len;j++) {
+            if(isRead[j]) continue
+            isRead[j] = 1
+            tmp.push(nums[j])
+            backtrack(j+1, tmp, isRead)
+            tmp.pop()
+            isRead[j] = 0
+        }
+    }
+    backtrack(0, [], {})
+    return res
 };

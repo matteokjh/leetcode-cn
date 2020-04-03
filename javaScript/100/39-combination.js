@@ -1,27 +1,25 @@
 /**
  * https://leetcode-cn.com/problems/combination-sum/
  * 组合总和
+ * Medium
  * @param {number[]} candidates
  * @param {number} target
  * @return {number[][]}
  */
 var combinationSum = function(candidates, target) {
     let res = [];
-    let a = 0; //临时数组的元素和
-    let arr = []; // 存放临时数组
-    candidates.sort((a,b)=>a-b);
-    function func(candidates,arr,target,num){
-        if(target == 0){
-            res.push(arr)
-            return
+    let len = candidates.length;
+    function backtrack(i, sum, tmp) {
+        if (sum > target || i === len) return;
+        if (sum === target) {
+            res.push([...tmp]);
+            return;
         }
-        if(target < candidates[num]) return; //精妙之处
-        for(let i=num; i<candidates.length; i++){
-            func(candidates,arr.concat(candidates[i]),target-candidates[i],i);
-        }
+        tmp.push(candidates[i]);
+        backtrack(i, sum + candidates[i], tmp);
+        tmp.pop();
+        backtrack(i + 1, sum, tmp);
     }
-
-    func(candidates,arr,target,0);
-
-    return res
+    backtrack(0, 0, []);
+    return res;
 };

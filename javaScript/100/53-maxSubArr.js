@@ -4,16 +4,16 @@
  * @param {number[]} nums
  * @return {number}
  */
-var maxSubArray = function(nums) { 
-    // O(n)
-    let res=nums[0],sum=0;
-    for(let i=0;i<nums.length;i++){
-        if(sum > 0){
-            sum += nums[i]
-        }else{
-            sum = nums[i]
+var maxSubArray = function(nums) {
+    let res = nums[0];
+    let tmp = 0;
+    for (let num of nums) {
+        if (tmp > 0) {
+            tmp += num;
+        } else {
+            tmp = num;
         }
-        res = Math.max(res,sum)
+        res = Math.max(res, tmp);
     }
-    return res
+    return res;
 };

@@ -5,15 +5,16 @@
  * @return {number}
  */
 var maxArea = function(height) {
-    let a;
-    for(let i = 0;i < height.length;i++){
-        let s = height[i];
-        for(let j = i+1;j<height.length;j++){
-            let p = height[j];
-            let m;
-            m = s <= p ? (j-i)*s : (j-i)*p; 
-            a = a > m ? a : m;
+    let left = 0
+    let right = height.length-1
+    let res = 0
+    while(left < right) {
+        res = Math.max(res, Math.min(height[left], height[right])*(right - left))
+        if(height[left] <= height[right]) {
+            left++
+        } else {
+            right--
         }
     }
-    return a;
+    return res
 };

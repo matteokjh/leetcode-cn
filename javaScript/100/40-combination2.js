@@ -1,28 +1,29 @@
 /**
  * https://leetcode-cn.com/problems/combination-sum-ii/
  * 组合总和II
+ * Medium
  * @param {number[]} candidates
  * @param {number} target
  * @return {number[][]}
  */
 var combinationSum2 = function(candidates, target) {
     let res = [];
-    let path = [];
-    function func(start,target) {
-        if(target === 0) {
-            res.push([...path])
-            return 
+    let len = candidates.length;
+    candidates.sort((a, b) => a - b);
+    function backtrack(i, sum, tmp) {
+        if (sum > target || i > len) return;
+        if (sum === target) {
+            res.push([...tmp]);
+            return;
         }
-        for(let i=start;i<candidates.length && target - candidates[i] >= 0;i++) {
-            if(i > start && candidates[i] === candidates[i-1]) {
-                continue
-            }
-            path.push(candidates[i])
-            func(i+1,target - candidates[i])
-            path.pop()
+        for (let j = i; j < len; j++) {
+            if (j > i && candidates[j] === candidates[j - 1]) continue;
+            if (sum + candidates[j] > target) return;
+            tmp.push(candidates[j]);
+            backtrack(j + 1, sum + candidates[j], tmp);
+            tmp.pop();
         }
     }
-    candidates.sort((a,b)=>a-b)
-    func(0,target)
-    return res
+    backtrack(0, 0, []);
+    return res;
 };
