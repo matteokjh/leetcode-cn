@@ -6,17 +6,14 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
-    let rest = 0
-    let sold = 0
-    let hold = -Infinity
-    for(let e of prices) {
-        let pre_sold = sold
-        sold = hold + e
-        hold = Math.max(hold,rest - e)
-        rest = Math.max(pre_sold,rest)
+    let dp_i_0 = 0
+    let dp_i_1 = -Infinity
+    let dp_pre = 0
+    for(let i=0;i<prices.length;i++) {
+        let tmp = dp_i_0
+        dp_i_0 = Math.max(dp_i_0, dp_i_1 + prices[i])
+        dp_i_1 = Math.max(dp_i_1, dp_pre - prices[i])
+        dp_pre = tmp
     }
-    return Math.max(sold,rest)
+    return dp_i_0
 };
-// sold[i] = hold[i-1] + price[i]
-// hold[i] = max(hold[i-1],rest[i-1]-price[i])
-// rest[i] = max(rest[i-1],sold[i-1])
