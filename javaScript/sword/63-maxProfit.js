@@ -6,26 +6,11 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
-    let res = 0
-    let start = -1
-    for(let i=0;i<prices.length;i++) {
-        if(start !== -1) {
-            if(prices[i] < start) {
-                start = prices[i]
-                continue
-            } else if(prices[i] > start) {
-                res = Math.max(res, prices[i] - start)
-            }
-        } else if(prices[i] < prices[i+1]) {
-            start = prices[i]
-        }
+    let a = 0
+    let b = Infinity
+    for(let p of prices) {
+        a = Math.max(a, p - b)
+        b = Math.min(b, p)
     }
-    return res
-    // let res = 0
-    // let min = Infinity
-    // for(let i=0;i<prices.length;i++) {
-    //     min = Math.min(min,prices[i])
-    //     res = Math.max(res, prices[i] - min)
-    // }
-    // return res
+    return a
 };

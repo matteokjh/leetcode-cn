@@ -9,10 +9,12 @@
  * @return {number[][]}
  */
 var floodFill = function(image, sr, sc, newColor) {
+    // bfs
+    let originColor = image[sr][sc]
+    if(originColor === newColor) return image
     let row = image.length
     let col = image[0].length
     let queue = [[sr,sc]]
-    let originColor = image[sr][sc]
     let visited = {}
     let dxy = [[-1,0], [0, 1], [1, 0], [0, -1]]
     while(queue.length) {
@@ -28,5 +30,24 @@ var floodFill = function(image, sr, sc, newColor) {
             queue.push([tx, ty])
         }
     }
+    return image
+};
+
+var floodFill = function(image, sr, sc, newColor) {
+    // dfs
+    let originColor = image[sr][sc]
+    if(originColor === newColor) return image
+    let row = image.length
+    let col = image[0].length
+    
+    function dfs(i, j) {
+        if(i < 0 || j < 0 || i >= row || j >= col || image[i][j] !== originColor) return
+        image[i][j] = newColor
+        dfs(i-1, j)
+        dfs(i+1, j)
+        dfs(i, j+1)
+        dfs(i, j-1)
+    }
+    dfs(sr, sc)
     return image
 };
