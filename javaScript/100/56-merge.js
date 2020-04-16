@@ -6,29 +6,28 @@
  * @return {number[][]}
  */
 var merge = function(intervals) {
-    intervals.sort((a,b)=>{
-        if(a[0] > b[0]) {
-            return 1
-        } else {
-            return -1
+    if(!intervals.length) return []
+    let map = {}
+    for(let arr of intervals) {
+        if(map[arr[0]]) {
+            if(map[arr[0]][1] < arr[1]) {
+                map[arr[0]] = [arr[0], arr[1]]
+            }
+        } else{
+            map[arr[0]] = arr
         }
-    })
-    let tmp = []
-    let res = intervals.reduce((acc,cur,idx)=>{
-        if(tmp.length) {
-            if(cur[0] <= tmp[1]) {
-                tmp = [tmp[0], Math.max(cur[1],tmp[1])]
-           } else {
-               acc.push(tmp)
-               tmp = [...cur]
-           }
+    }
+    let arr = Object.values(map)
+    let res = [arr[0]]
+    for(let i=1;i<arr.length;i++) {
+        let item = res[res.length-1]
+        if(arr[i][0] > item[1]) {
+            res.push(arr[i])
         } else {
-            tmp = [...cur]
+            if(arr[i][1] > item[1]) {
+                res[res.length-1] = [item[0], arr[i][1]]
+            }
         }
-        return acc
-    },[])
-    if(tmp.length) {
-        res.push(tmp)
     }
     return res
 };
