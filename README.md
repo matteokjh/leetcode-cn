@@ -1,5 +1,5 @@
 # leetcode-cn
-a leetcode a day, keep the  ignorance away.
+a leetcode a day, keep the  ignorance away🚀🚀
 
 This is a code collection of my answers on [leetcode-cn](https://leetcode-cn.com/)
 
